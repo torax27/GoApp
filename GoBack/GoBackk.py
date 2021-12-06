@@ -7,6 +7,7 @@ from kivy.core.window import Window
 import random   
 Window.size = (800, 800)
 
+#creates Object with the boardstate and their move count as properties
 class BoardStates():
     def __init__(self, move, ids):
         self.move = move
@@ -39,11 +40,12 @@ class Board(Screen):
     previous_move = None
     previous_kill = ["Go", "None"]
     states = []
+    
 
 
     def turning(self, but):    
 
-        if self.turn == 0: # first 
+        if self.turn == 0: # first empty board
             self.states = [BoardStates(self.turn,self.ids)]
         
         if but.text == "Go":
@@ -73,11 +75,17 @@ class Board(Screen):
             groups = self.init_groups(self.get_surrounding(but_id)) # initialize groups
             groups = self.expand_groups(but_id,groups[0],groups[1],groups[2],groups[3]) #expand groups
             
-            self.states.append(BoardStates(self.turn, self.ids))
+            
+            self.illegal_move = False # WHETER MOVE IS ILLIGEL IS BEING CHHECKED IN check_killing() BUT DEFAULTS TO FALSE
+            self.check_killing(groups, but_id) # checks if a group gets killed AND ILLEGAL MOVES
 
-            self.check_killing(groups, but_id) # checks if a group gets killed
 
-        print(self.states[self.turn].state)
+            if not self.illegal_move: # put this in extra method
+                self.states.append(BoardStates(self.turn, self.ids))
+
+            #IF AN ILLEGAL MOVE HAPPENS THEN illegal_move() IS CALLED AND HAS TO FIX SOME STUFF
+
+        print(self.states[self.turn].state, "\n\n-----------------------------\n")
         
             
 
@@ -363,7 +371,7 @@ class Board(Screen):
         current_move_surrounding = self.get_surrounding(current_move) 
         surrounding_colors = current_move_surrounding.values()
 
-        if not murder: #NO ENEMEY GROUPS GET KILLED # ILLEGAL MOVE
+        if not murder: #NO ENEMEY GROUPS GET KILLED                                 # ILLEGAL MOVE
             self.previous_kill = ["Go", "None"] # NO KILL IN THIS MOVE
             if suicide_attempt: # player kills his own group
                 self.illegal_move(current_move) # first element is current move 
@@ -382,7 +390,8 @@ class Board(Screen):
                 
 
     def illegal_move(self, but_id):
-        # change image, text and player/opponnent count back
+        # change image, text, player/opponnent count, and Boardstate back
+        self.illegal_move = True # for later testing, e.g. creating the boardstate
         print("[Illegal Move]")
         self.ids[but_id].text = "Go"
         self.turn -= 1
@@ -438,7 +447,7 @@ class GoApp(App):
         return kv
 
 
-kv = Builder.load_file("GoAppStableKV_Linux.kv")
+kv = Builder.load_file("GoBackk.kv")
 
 if __name__ == "__main__":
     GoApp().run()

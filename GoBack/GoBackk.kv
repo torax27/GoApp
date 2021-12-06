@@ -1,5 +1,40 @@
+#: import NoTransition kivy.uix.screenmanager.NoTransition
+
 WindowManager:
+    StartScreen:
     Board:
+
+<ScreenManager>:
+    transition: NoTransition()
+
+
+<StartScreen>:
+    FloatLayout:
+        Image: 
+            source: "Graphics/Wallpaper.png"
+            size_hint: 1,1
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+        Button:
+            size_hint: 0.2,0.082
+            pos_hint: {"center_x": 0.5, "center_y": 0.4}
+            on_release: app.root.current = "Board"
+
+            Image:
+                source: "Graphics/PlayButton.png"
+                size: self.parent.size
+                center_x: self.parent.center_x
+                center_y: self.parent.center_y
+
+
+        Label:
+            size_hint: 0.2,0.1
+            pos_hint: {"center_x": 0.5, "center_y": 0.6}
+            text: "hi"
+        
+
+
+
 
 
 <TopLeftCorner@Button>:
