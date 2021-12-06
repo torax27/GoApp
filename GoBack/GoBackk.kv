@@ -34,8 +34,11 @@ WindowManager:
         
 
 
-
-
+<MoveBack@Button>:
+    text: "Back"
+    size_hint: 0.2, 0.2
+    pos_hint: {"center_x": 0.88, "center_y": 0.5}
+    
 
 <TopLeftCorner@Button>:
     text: "Go"
@@ -551,6 +554,8 @@ WindowManager:
                 on_release:
                     root.turning(self)
 
-            
+        
+        MoveBack:
+            on_release: root.goback()
 
             

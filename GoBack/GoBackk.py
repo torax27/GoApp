@@ -5,7 +5,7 @@ from kivy.lang import Builder, builder
 from kivy.uix.screenmanager import NoTransition, ScreenManager, Screen
 from kivy.core.window import Window
 import random   
-Window.size = (800, 800)
+Window.size = (1000, 800)
 
 #creates Object with the boardstate and their move count as properties
 class BoardStates():
@@ -87,7 +87,8 @@ class Board(Screen):
 
         print(self.states[self.turn].state, "\n\n-----------------------------\n")
         
-            
+    def goback(self):
+        pass
 
     def change_image(self, but, but_id): #perhaps go through all ids and change image
 
