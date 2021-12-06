@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="SimpleWhiteStoneInkscapeTest.svg"
+   inkscape:export-filename="K:\Code goes brrr\Projects\GoApp\Pictures\SimpleWhiteStoneInkscapeTest.png"
+   inkscape:export-xdpi="76.199997"
+   inkscape:export-ydpi="76.199997"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title117">SimpleBlackStone</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="50mm"
+     inkscape:zoom="2.1971895"
+     inkscape:cx="74.185681"
+     inkscape:cy="65.765834"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2051">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop2047" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2049" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2051"
+       id="radialGradient2311"
+       cx="26.395983"
+       cy="22.622654"
+       fx="26.395983"
+       fy="22.622654"
+       r="20"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.2453457,-1.1501755,1.8068641,3.5273177,-67.651041,-30.908607)" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <circle
+       style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.863666;stroke-opacity:1"
+       id="path1965"
+       cx="25"
+       cy="25"
+       r="20" />
+  </g>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <circle
+       style="fill:url(#radialGradient2311);fill-opacity:1;stroke-width:2.14071"
+       id="path31"
+       cx="25"
+       cy="25"
+       r="20" />
+    <rect
+       style="fill:#bf7c00;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.976;stroke-opacity:1"
+       id="rect1344"
+       width="64.372704"
+       height="62.24398"
+       x="-5.4495411"
+       y="-5.704988" />
+  </g>
+  <metadata
+     id="metadata115">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>SimpleBlackStone</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -1,0 +1,521 @@
+WindowManager:
+    Board:
+
+
+<TopLeftCorner@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\TopLeftCorner.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+        
+<TopEdge@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\TopEdge.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+        #on_release:
+            #root.turning()
+
+<TopRightCorner@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\TopRightCorner.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<Intersection@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\Intersection.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<LeftEdge@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\LeftEdge.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<BottomLeftCorner@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\BottomLeftCorner.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<BottomRightCorner@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\BottomRightCorner.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<RightEdge@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\RightEdge.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<BottomEdge@Button>:
+    text: "Go"
+    color: 0,0,0,0
+
+    Image:
+        id:Image
+        source: "Graphics\Splitter\EmptyField\BottomEdge.png"
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+
+<Board>:
+    name:"Board"
+
+
+    FloatLayout:
+        #size_hint: None, None
+        #size: 756, 756
+        
+        
+        GridLayout:
+            cols:9
+            size_hint: None, None
+            size: 756, 756
+            #pos_hint: {"x":0, "y": 0}
+
+
+
+            TopLeftCorner:
+                id: id11
+                
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id21
+                
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id31
+                #background_normal: "Graphics\Splitter\EmptyField\TopEdge.png"
+                #text: "Go"
+                #color: 0,0,0,0
+                on_release:
+                    root.turning(self)    
+            TopEdge:
+                id: id41
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id51
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id61
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id71
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            TopEdge:
+                id: id81
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            TopRightCorner:
+                id: id91
+                text: "Go"
+                on_release:
+                    root.turning(self)
+
+
+
+            LeftEdge:
+                id: id12
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id22
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id32
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id42
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id52
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id62
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id:id72
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id82
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id92
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            
+            LeftEdge:
+                id: id13
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id23
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id33
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id43
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id53
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id63
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id73
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id83
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id93
+                text: "Go"
+                on_release:
+                    root.turning(self)
+
+            LeftEdge:
+                id: id14
+                text: "Go"
+                on_release:
+                    root.turning(self)
+                text: "Go"
+            Intersection:
+                id: id24
+                text: "Go"
+                on_release:
+                    root.turning(self)
+                text: "Go"
+            Intersection:
+                id: id34
+                text: "Go"
+                on_release:
+                    root.turning(self)
+                text: "Go"              
+            Intersection:
+                id: id44
+                text: "Go"
+                on_release:
+                    root.turning(self)
+                text: "Go"
+            Intersection:
+                id: id54
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id64
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id74
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id84
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id94
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            
+            LeftEdge:
+                id: id15
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id25
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id35
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id45
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id55
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id65
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id75
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id85
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id95
+                text: "Go"
+                on_release:
+                    root.turning(self)
+
+            LeftEdge:
+                id: id16
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id26
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id36
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id46
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id56
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id66
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id76
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id86
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id96
+                text: "Go"
+                on_release:
+                    root.turning(self)
+
+            LeftEdge:
+                id: id17
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id27
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id37
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id47
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id57
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id67
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id77
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id87
+                text: "Go"
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id97
+                text: "Go"
+                on_release:
+                    root.turning(self)
+
+            LeftEdge:
+                id: id18
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id28
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id38
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id48
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id58
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id68
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id78
+                on_release:
+                    root.turning(self)
+            Intersection:
+                id: id88
+                on_release:
+                    root.turning(self)
+            RightEdge:
+                id: id98
+                on_release:
+                    root.turning(self)
+
+            BottomLeftCorner:
+                id: id19
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id29
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id39
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id49
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id59
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id69
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id79
+                on_release:
+                    root.turning(self)
+            BottomEdge:
+                id: id89
+                on_release:
+                    root.turning(self)
+            BottomRightCorner:
+                id: id99
+                on_release:
+                    root.turning(self)
+
+            
+
+            

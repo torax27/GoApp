@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="PlayButton.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="720mm"
+     inkscape:zoom="1.3404872"
+     inkscape:cx="181.65038"
+     inkscape:cy="212.23627"
+     inkscape:window-width="1306"
+     inkscape:window-height="704"
+     inkscape:window-x="60"
+     inkscape:window-y="1051"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="104.44788"
+       y="152.71229"
+       width="178.32536"
+       height="82.112529"
+       id="rect5388" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#008b8b;fill-opacity:1;fill-rule:evenodd;stroke-width:0.287406"
+       id="rect31"
+       width="75"
+       height="30"
+       x="13.202"
+       y="32.050644" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,9.0681815,-0.39726464)"
+       id="text5386"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;text-align:justify;white-space:pre;shape-inside:url(#rect5388);fill:#ffffff;fill-opacity:1;stroke:none"
+       x="0"
+       y="0"><tspan
+         x="104.44727"
+         y="194.00198"
+         id="tspan64327"><tspan
+           style="font-size:46.6667px"
+           id="tspan64323">Play</tspan><tspan
+           style="line-height:1.25"
+           id="tspan64325">
+</tspan></tspan><tspan
+         x="104.44727"
+         y="246.43689"
+         id="tspan64331"><tspan
+           style="line-height:1.25"
+           id="tspan64329">
+</tspan></tspan></text>
+  </g>
+</svg>

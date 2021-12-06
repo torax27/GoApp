@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="SimpleBlackStoneInkscape.svg"
+   inkscape:export-filename="K:\Code goes brrr\Projects\GoApp\Pictures\BlackStone.png"
+   inkscape:export-xdpi="76.199997"
+   inkscape:export-ydpi="76.199997"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title117">SimpleBlackStone</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="50mm"
+     inkscape:zoom="6.2145904"
+     inkscape:cx="93.650581"
+     inkscape:cy="80.697193"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient11294">
+      <stop
+         style="stop-color:#070707;stop-opacity:1"
+         offset="0"
+         id="stop11290" />
+      <stop
+         style="stop-color:#171717;stop-opacity:0.3"
+         offset="1"
+         id="stop11292" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8659">
+      <stop
+         style="stop-color:#070707;stop-opacity:1"
+         offset="0"
+         id="stop8655" />
+      <stop
+         style="stop-color:#171717;stop-opacity:0.3993808"
+         offset="1"
+         id="stop8657" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8344"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#808080;stop-opacity:1;"
+         offset="0"
+         id="stop8342" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8659"
+       id="linearGradient8821"
+       gradientUnits="userSpaceOnUse"
+       x1="35.223717"
+       y1="27.450634"
+       x2="44.512192"
+       y2="25.000002"
+       gradientTransform="matrix(1.0250002,0,0,1.0250001,-4.7826148,2.9336165)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8659"
+       id="linearGradient10598"
+       gradientUnits="userSpaceOnUse"
+       x1="35.828224"
+       y1="24.644991"
+       x2="44.512192"
+       y2="25.000002"
+       gradientTransform="matrix(1.0250001,0,0,1.0250001,-37.799637,7.5680427)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8659"
+       id="linearGradient10774"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0250002,0,0,1.0250001,-19.341365,9.1674652)"
+       x1="36.054855"
+       y1="24.841085"
+       x2="44.512192"
+       y2="25.000002" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11294"
+       id="linearGradient10834"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0250002,0,0,1.0250001,-21.98332,9.5422845)"
+       x1="35.836357"
+       y1="25.63883"
+       x2="44.512192"
+       y2="25.000002" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Background"
+     style="display:inline">
+    <circle
+       style="opacity:0.3;fill:#ffffff;fill-rule:evenodd;stroke-width:1.02983;stroke-opacity:0"
+       id="path50"
+       cx="25"
+       cy="25"
+       r="20" />
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.972;stroke-opacity:0;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path866"
+       cx="25"
+       cy="25"
+       r="20"
+       inkscape:export-filename="K:\Code goes brrr\Projects\GoApp\Pictures\BlackStone.png"
+       inkscape:export-xdpi="95.25"
+       inkscape:export-ydpi="95.25" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Ebene 4"
+     style="display:inline;opacity:0.55">
+    <circle
+       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient10834);fill-opacity:1;stroke:none;stroke-width:1.0004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path31-54"
+       cx="3.6416826"
+       cy="35.16729"
+       r="20"
+       transform="rotate(-39.087916)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Ebene 3"
+     style="display:inline;opacity:0.55">
+    <circle
+       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient10774);fill-opacity:1;stroke:none;stroke-width:1.0004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path31-5"
+       cx="6.2836394"
+       cy="34.792469"
+       r="20"
+       transform="rotate(-34.762541)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2"
+     style="display:inline;opacity:0.55">
+    <circle
+       style="mix-blend-mode:normal;fill:url(#linearGradient10598);fill-opacity:1;stroke:none;stroke-width:1.0004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path31-4"
+       cx="-12.174635"
+       cy="33.193047"
+       transform="rotate(-65.142165)"
+       r="20" />
+  </g>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;opacity:0.55">
+    <circle
+       style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient8821);fill-opacity:1;stroke:none;stroke-width:1.0004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="path31"
+       cx="20.84239"
+       cy="28.55862"
+       r="20"
+       transform="rotate(-8.8776282)"
+       inkscape:export-filename="K:\Code goes brrr\Projects\GoApp\Pictures\BlackStone.png"
+       inkscape:export-xdpi="95.250008"
+       inkscape:export-ydpi="95.250008" />
+  </g>
+  <metadata
+     id="metadata115">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>SimpleBlackStone</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
